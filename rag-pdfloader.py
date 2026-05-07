@@ -22,11 +22,6 @@ COLLECTION_NAME = "real_estate"
 llm = None
 vector_store = None
 
-# Define headers to mimic a real browser
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-}
-
 def initialize_components():
     print('in initialize components method.....')
     global llm, vector_store
